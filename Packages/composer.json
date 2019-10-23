@@ -1,0 +1,18 @@
+{
+    "require": {
+        "php": "^7.1.3",
+        "fideloper/proxy": "^4.0",
+        "ext-pdo": "*",
+        "fzaninotto/faker": "1.4.0",
+        "monolog/monolog": "~1.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Colon\\": "/src"
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ]
+    }
+}
